@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const path = require('path');
-const apiRoutes = require('./routes/apiRoutes');
+const apiRoutes = require('.');
 const htmlRoutes = require('./routes/htmlRoutes');
 
 app.use(express.urlencoded({
